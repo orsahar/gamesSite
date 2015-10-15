@@ -1,0 +1,25 @@
+<html>
+<head>
+    <title>GameSahar</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular-route.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular-resource.js"></script>
+    <script src="scripts/gamesApp.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body ng-app="gamesApp">
+<div id='main' class="container">
+    <nav class="navbar-fluid navbar-default navbar-fixed-top">
+        <div class="container">
+            <a class="navbar-brand navbar-center" > Games! </a>
+            <p class="navbar-text navbar-center"> Enjoy, Contribute and Play !</p>
+        </div>
+    </nav>
+    <div class="col-md-offset-2 col-md-8">
+        <div ng-view>
+        </div>
+    </div>
+</div>
+</body>
+</html>
